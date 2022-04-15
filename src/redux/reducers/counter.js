@@ -25,7 +25,7 @@ export const counter = createSlice({
 export const fetchQuestions = (data) => async(dispatch) =>
 {
     try{
-        const response = await axios.get(`/question/`)
+        const response = await axios.get(`/questions/`)
         dispatch(setQuestions(response.data))
     }
     catch(error){
