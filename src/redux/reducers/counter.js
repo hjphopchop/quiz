@@ -25,7 +25,7 @@ export const counter = createSlice({
 export const fetchQuestions = (data) => async(dispatch) =>
 {
     try{
-        const response = await axios.get(`http://localhost:3001/products/`)
+        const response = await axios.get(`/question/`)
         dispatch(setQuestions(response.data))
     }
     catch(error){
@@ -41,7 +41,7 @@ export const randomQuestions =()=> (dispatch) => {
         return Math.floor(Math.random()*
         (max-min)) + min
     }
-    let random = getRandom(0,29)
+    let random = getRandom(0,23)
 
     dispatch(setRandom(random));
 

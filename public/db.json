@@ -1,5 +1,5 @@
 {
-    "products" :[
+    "question" :[
          {
              "id": 0,
              "name": "1",
@@ -133,41 +133,6 @@
         "question": "Назовите основные этапы жизненного цикла компонента",
         "answer": "componentWillMount - перед рендерингом, в основном для настройки компонента    render - процесс рендеринга    componentDidMount - уведомляет, про то, что компонент соединен с DOM деревом    componentWillReceiveProps - уведомляет, про то, что приходят новые входящие свойства в компонент    shouldComponentUpdate - возвращает true или false и служит для оптимизации. Решает, нужно ли делать ре-рендеринг    componentWillUpdate - уведомляет, что компонент будет обновлен    componentDidUpdate - уведомляет, что компонент был обновлен    componentWillUnmount - используется для удаления слушателей и очисткикомпонента. Вызывается перед удалением компонента"
        }
-       ,
-       { "id": 24,
-        "name": "25",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
-       ,
-       { "id": 25,
-        "name": "26",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
-       ,
-       { "id": 26,
-        "name": "27",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
-       ,
-       { "id": 27,
-        "name": "28",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
-       ,
-       { "id": 28,
-        "name": "29",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
-       ,
-       { "id": 29,
-        "name": "30",
-        "question": "Ты пидор?",
-        "answer": "yes"
-       }
+      
     ]
     }
