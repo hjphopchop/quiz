@@ -25,7 +25,7 @@ export const counter = createSlice({
 export const fetchQuestions = (data) => async(dispatch) =>
 {
     try{
-        const response = await axios.get(`https://prostoneprosto.herokuapp.com/api`)
+        const response = await axios.get(`https://backquiz.herokuapp.com/questions`)
         dispatch(setQuestions(response.data))
     }
     catch(error){
